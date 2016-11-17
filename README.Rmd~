@@ -24,13 +24,11 @@ Rooted; includes branch lengths.
 
 The `tree` will be stored in `attr(p, "data")$data` and with the
 `summary(p, combine=TRUE)`, we can output tree and source code to
-visualize the tree (in `GGTREE` block) into a `NEXSUS` file.
+visualize the tree into a `NEXSUS` file with a `GGTREE` block.
 
 Then by parsing the output `NEXUS`, we have the `tree` object and the
-source code to reproduce tree visualization.
-
-Just
-similar to Figtree which can save the *plot* to `NEXUS` tree file. Figtree
+source code to reproduce tree visualization and annotation. Just
+similar to Figtree which can save the *plot* to tree file. Figtree
 introduce a `figtree` block in NEXUS file to store visualization
 setting. The idea here is similar.
 
