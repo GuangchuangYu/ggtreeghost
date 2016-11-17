@@ -16,6 +16,7 @@ Rooted; includes branch lengths.
 > code = summary(p, combine=TRUE)
 > code
 [1] "ggplot(tr, mapping = mapping, layout = layout, mrsd = mrsd, as.Date = as.Date, yscale = yscale, yscale_mapping = yscale_mapping, ladderize = ladderize, right = right, branch.length = branch.length, ndigits = ndigits) + geom_tree(layout = layout, multiPhylo = multiPhylo) + theme_tree() + geom_hilight(40)"
+## reproduce the *plot* by running the code text
 > eval(parse(text=code))
 ```
 
